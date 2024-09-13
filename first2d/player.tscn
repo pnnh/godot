@@ -46,3 +46,5 @@ animation = &"up"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_muvw4")
+
+[connection signal="Hit" from="." to="." method="OnBodyEntered"]
